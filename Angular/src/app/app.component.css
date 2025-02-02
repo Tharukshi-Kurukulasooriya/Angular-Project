@@ -1,0 +1,21 @@
+.navbar {
+    position: fixed; /* Keeps it at the top */
+    top: 0;
+    left: 0;
+    width: 0%;
+    
+    padding: 10px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo-container {
+    margin-left: 20px; /* Adjust as needed */
+}
+
+.system-logo {
+    height: 50px; /* Adjust size */
+    width: auto;
+}
